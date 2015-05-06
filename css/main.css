@@ -1,0 +1,135 @@
+section.about {
+    background: none repeat scroll 0% 0% transparent;
+    height: 100%;
+
+    color: #FFF;
+}
+
+section.about .content {
+    position: absolute;
+    display: block;
+
+    width: 100%;
+    top: 25%;
+}
+
+section.about video {
+    height: 100%;
+    width: 100%;
+
+    display: block;
+}
+
+section.about h1 {
+
+}
+
+
+#brand {
+    display: none;
+}
+
+#callback {
+    display: none;
+}
+
+.logobar {
+    background-color: rgba(000, 0, 0, 0.6);
+    padding: 20px 0;
+    margin: 50px 0;
+}
+
+.logobar div.contacts {
+    margin-top: 60px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.logobar div.logo {
+    height: 200px;
+    width: 200px;
+}
+
+.logobar div.logo img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.logobar div.callback {
+    margin-top: 30px;
+}
+
+.dl-horizontal-icon {
+    margin-bottom: 10px;
+}
+
+.dl-horizontal-icon > dt {
+    float: left;
+    width: 25px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dl-horizontal-icon > dd {
+    margin-left: 45px;
+}
+
+.slogan {
+    background: -webkit-radial-gradient(circle, #cc2c2c, #5e1c1c); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #cc2c2c, #5e1c1c); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(circle, #cc2c2c, #5e1c1c); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle, #cc2c2c, #5e1c1c); /* Standard syntax */
+
+    padding: 10px 0;
+}
+
+.slogan p {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #191919;
+    color: #ffffff;
+
+    padding: 40px 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+.samples {
+    padding-bottom: 50px;
+}
+
+.sample {
+    margin-top: 20px;
+}
+
+.media {
+    background-color: #191919;
+}
+
+.media .media-heading {
+
+    margin-top: 20px;
+    color: #FFFFFF;
+    
+}
+
+.audiojs {
+    width: 300px;
+    margin: 10px 0;
+}
+
+.audiojs .play-pause {
+    width: 40px;
+}
+
+.audiojs .scrubber {
+    width: 130px;
+}

@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<section id="about" class="about">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1 hidden-sm hidden-xs">
+                    <div id="brand" class="brand">
+                        <h1>
+                            <p>Песня на заказ</p>
+                        </h1>
+                        <p>МЫ СОЗДАЕМ ПЕСНИ В ПОДАРОК ПО ВАШЕЙ ИСТОРИИ</p>
+
+                        <p>ПОВОД ЛЮБОЙ</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="content">
+                        <h1>
+                            <p class="text-center">Песня на заказ</p>
+                        </h1>
+                        <p class="text-center">МЫ СОЗДАЕМ ПЕСНИ В ПОДАРОК ПО ВАШЕЙ ИСТОРИИ</p>
+
+                        <p class="text-center">ПОВОД ЛЮБОЙ</p>
+
+                        <p class="text-center">
+                            <a id="play-tour" class="btn btn-danger btn-lg" href="#">Знакомство за 30 секунд →</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="callback" class="callback">
+                        <p class="centered">
+                            <a href="http://vk.com/write6529379" style="color: #FFFFFF">
+                                <i class="fa fa-vk" style="font-size: 128px"></i>
+                            </a>
+                        </p>
+
+                        <p class="centered">
+                            <a href="http://vk.com/write6529379" style="color: #FFFFFF">
+                                Свяжитесь напрямую с нашим музыкальным продюсером. Это наиболее удобный способ
+                                получения обратной связи.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <video id="tour">
+        <source src="{{ '/video/tour.mp4' | prepend: site.baseurl }}" type="video/mp4">
+    </video>
+</section>
+
+<section id="samples" class="samples">
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h1>
+                    Наши работы
+                </h1>
+            </div>
+            {% for sample in site.data.samples %}
+            <div class="col-md-6">
+                <div class="sample">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object"
+                                     src="{{ sample.photo | prepend: site.baseurl }}"
+                                     alt="{{ sample.artist | prepend: site.baseurl }}">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">{{ sample.artist | prepend: site.baseurl }}</h3>
+                            <br/>
+                            <audio src="{{ sample.song | prepend: site.baseurl }}" preload="auto"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section> 

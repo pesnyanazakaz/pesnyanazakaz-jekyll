@@ -1,0 +1,10 @@
+# Site settings
+title: Песня на заказ
+email: 615252@mail.ru
+phone: +7 (911) 518-52-52
+description: мы создаем песни в подарок по вашей истории, повод любой
+baseurl: ""
+url: "http://xn--80aaarlctuarx3o.xn--p1ai"
+
+# Build settings
+markdown: kramdown

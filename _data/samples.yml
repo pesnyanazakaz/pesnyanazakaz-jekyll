@@ -1,0 +1,19 @@
+ - artist: Никита Викторов
+   photo: /img/team/nikita_viktorov.jpg
+   song: /audio/team/nikita_viktorov_sample.mp3
+
+ - artist: Даниил Калатура
+   photo: /img/team/daniil_kalatura.jpg
+   song: /audio/team/daniil_kalatura_sample.mp3
+   
+ - artist: Марина Насытко
+   photo: /img/team/marina_nasytko.jpg
+   song: /audio/team/marina_nasytko_sample.mp3
+      
+ - artist: Максим Ермачков
+   photo: /img/team/maxim_ermachkov.jpg
+   song: /audio/team/maxim_ermachkov_sample.mp3
+         
+ - artist: Николай Орлов
+   photo: /img/team/nikolay_orlov.jpg
+   song: /audio/team/nikolay_orlov_sample.mp3
