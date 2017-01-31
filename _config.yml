@@ -8,3 +8,7 @@ url: "http://xn--80aaarlctuarx3o.xn--p1ai"
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-asciidoc
